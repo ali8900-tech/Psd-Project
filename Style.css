@@ -1,0 +1,56 @@
+body{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: -1px;
+    text-align: left;
+    }
+.main{
+ padding:20px 0;
+}
+
+.main .row{
+ justify-content: center;
+ align-items: center;
+}
+.ico{
+gap:20px;
+display: flex; 
+justify-content: flex-end;
+
+}
+.ico li {
+    list-style-type: none;
+}
+.ico li a{
+    color:#000;
+    font-size: 20px;
+}
+.login-icon{
+width: 19.29px;
+height: 19.29px;
+top: 4.23px;
+left: 4.11px;
+}
+.nav-bars ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.nav-bars ul li{
+    list-style: none;
+    display:inline-block
+}
+.nav-bars ul li a{
+    color:#000;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.45s;
+}
+.nav-bars ul li a:hover{
+    color:red;
+    transition: all 0.45s;
+}
